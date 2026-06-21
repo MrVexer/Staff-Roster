@@ -1,0 +1,221 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vengeful Realms Staff Roster</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      color: #f5f0df;
+      line-height: 1.7;
+
+      background:
+        linear-gradient(rgba(9, 3, 2, 0.75), rgba(9, 3, 2, 0.90)),
+        url("./RealmsBG.png?v=2");
+
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      background: linear-gradient(135deg, #460F0F, #090302);
+      padding: 45px 20px;
+      text-align: center;
+      border-bottom: 3px solid #D7C796;
+    }
+
+    .logo {
+      width: 180px;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px auto;
+    }
+
+    header h1 {
+      color: #D7C796;
+      margin: 0;
+      font-size: 38px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: #C5B171;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: rgba(9, 3, 2, 0.78);
+      border: 1px solid #8F7634;
+      border-radius: 10px;
+      padding: 22px;
+      margin-bottom: 25px;
+    }
+
+    .notice {
+      border: 2px solid #D7C796;
+      background: rgba(215, 199, 150, 0.08);
+    }
+
+    h2 {
+      color: #D7C796;
+      border-bottom: 1px solid #8F7634;
+      padding-bottom: 8px;
+      margin-top: 0;
+    }
+
+    h3 {
+      color: #C5B171;
+      margin-bottom: 5px;
+    }
+
+    .staff-card {
+      background: rgba(70, 15, 15, 0.45);
+      border: 1px solid #8F7634;
+      border-radius: 8px;
+      padding: 15px 18px;
+      margin-bottom: 15px;
+    }
+
+    .staff-card h3 {
+      margin-top: 0;
+      color: #D7C796;
+    }
+
+    .rank {
+      color: #C5B171;
+      font-weight: bold;
+    }
+
+    .status {
+      color: #AF9B5D;
+      font-style: italic;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #AF9B5D;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="./logo.png" alt="Vengeful Realms Logo" class="logo">
+
+  <h1>Vengeful Realms</h1>
+  <p>Official Staff Roster</p>
+</header>
+
+<main>
+
+<section class="notice">
+  <h2>Staff Roster</h2>
+  <p>
+    This page lists the current Vengeful Realms staff team by department.
+    Staff positions may change over time as departments are updated.
+  </p>
+</section>
+
+<section>
+  <h2>1. Report Staff</h2>
+
+  <div class="staff-card">
+    <h3>MrVexer</h3>
+    <p><span class="rank">Position:</span> Head of Staff</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Master of Whispers</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Court Whisperer</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Captain of Whispers</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Keeper of Secrets</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+</section>
+
+<section>
+  <h2>2. Gamemasters</h2>
+
+  <div class="staff-card">
+    <h3>Schmichael</h3>
+    <p><span class="rank">Position:</span> Head Of Staff</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Senior Gamemaster</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Gamemaster</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+</section>
+
+<section>
+  <h2>3. Discord Staff</h2>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Discord Administrator</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Discord Moderator</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+
+  <div class="staff-card">
+    <h3>Name Here</h3>
+    <p><span class="rank">Position:</span> Discord Trial Mod</p>
+    <p><span class="status">Status:</span> Active</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Vengeful Realms Staff Roster
+</footer>
+
+</body>
+</html>
+```
